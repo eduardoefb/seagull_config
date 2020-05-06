@@ -33,7 +33,7 @@
     name="channel-1"
     protocol="diameter-v1"
     transport="trans-1"
-    open-args="mode=client;dest=##SRC_IP##:##SRC_PORT##">
+    open-args="mode=client;dest=##DST_IP##:##DST_PORT##">
   </define>
 
   <define entity="traffic-param" name="call-rate" value="1"></define>	
